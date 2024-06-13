@@ -1,0 +1,143 @@
+html{
+    background-color:chartreuse;
+}
+
+
+h1, p{
+    text-align: center;
+    background-color: chartreuse;
+    color:darkblue
+    
+}
+
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.pikachu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ear-left,.ear-right{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+}
+
+.ear-left{
+    left: -20px;
+}
+
+.ear-right {
+    right: -20px;
+}
+
+.face{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.body{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.arm-left,.arm-right{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+
+.arm-left{
+    left: -20px;
+}
+
+.arm-right{
+    right: -20px;
+}
+
+.leg-left,.leg-right{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+}
+
+.leg-left{
+    left: -288px;
+    top: -239px;
+}
+
+.leg-right{
+    right: 30px;
+}
+
+#move-button{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.img-fluid-ojo-1{
+    width: 60px;
+    transform: translate(-90px, -70px);
+}
+.img-fluid-ojo-2{
+    width: 50px;
+    transform: translate(105px, -75px);
+}
+
+.img-fluid-boca{
+    width: 65px;
+    transform: translate(18px, -45px);
+}
+
+
+.img-fluid-cuerpo{
+    width: 385px;
+    transform: translate(-210px, -285px);
+
+}
+
+.img-fluid-cola{
+    width: 205px;
+    transform: translate(430px, 305px);
+}
+
+.img-fluid-brazo-1{
+    width: 55px;
+    transform: translate(0px, 135px);
+
+}
+.img-fluid-brazo-2{
+    width: 60px;
+    transform: translate(-35px, 135px);
+
+}
